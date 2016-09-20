@@ -4,5 +4,11 @@ simon.addEventListener("click", picLink);
 
 function picLink() {
   var PicId = this.attributes["data-img"].value;
+  var pic = document.getElementId(PicId);
   console.log(this);
+  if (pic.className === "hide") {
+    pic.className = "";
+  } else {
+    pic.className = "hide";
+  }
 }
