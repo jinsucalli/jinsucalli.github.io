@@ -1,12 +1,6 @@
 var simon = document.getElementById("simon");
 
-simon.addEventListener("click", function(){
-
-  console.log(this);
-  
-});
-
-//picLink);
+simon.addEventListener("click", picLink);
 
 function picLink() {
   var PicId = this.attributes["data-img"].value;
