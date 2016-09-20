@@ -5,7 +5,6 @@ simon.addEventListener("click", function(){
   console.log(this);
   
 });
-}
 
 //picLink);
 
